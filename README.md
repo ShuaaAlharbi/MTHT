@@ -5,7 +5,7 @@
 
 
 2D and 3D Multiscale image enhacment based on Top-Hat transform and local tensor representation 
-# Curvilinear Structure Enhancement by Multiscale Top-Hat Tensor in 2D/3D Images(2018)
+# Curvilinear Structure Enhancement by Multiscale Top-Hat Tensor in 2D/3D Images (2018)
 *Shuaa S. Alharbi, Cigdem Sazak, Chas Nelson and Boguslaw Obara*
 
 This repository contains all the codes written and implemented for the paper 
