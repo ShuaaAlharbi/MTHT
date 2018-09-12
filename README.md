@@ -14,7 +14,7 @@ This repository contains all the codes written and implemented for the paper:
 If you find this code useful in your research and development, please reference this repository or the paper:
 
 
- @inproceedings{***,
+ @inproceedings{Alharbi2018Curvilinear,
         author      = {Shuaa S. Alharbi, Cigdem Sazak, Chas Nelson and Boguslaw Obara},
         title       = {Curvilinear Structure Enhancement by Multiscale Top-Hat Tensor in 2D/3D Images},
         booktitle   = {**},
