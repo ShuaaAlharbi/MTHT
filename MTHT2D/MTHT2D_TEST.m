@@ -12,7 +12,7 @@ foldername_plots4 = 'results/Neuritenees/mat/';
 ext1 = '.png';
 ext2 = '.mat';
 foldername = './images/';
-filename = 'fungus';
+filename = 'leaf';
 %% Load image
 im = imread([foldername filename ext1]); 
 %% Normalize & Complement
