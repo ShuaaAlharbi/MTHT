@@ -5,10 +5,10 @@ function T = TensorForOrientedQuadratureFilters3D(qi,angles)
 %       Hans Knutsson, 
 %       Representing local structure using tensors, 
 %       The 6th Scandinavian Conference on Image Analysis, Oulu, Finland, 
-%       244–251, June 1989
+%       244ï¿½251, June 1989
 %
 %   INPUT:
-%       qi - 3D image (response of quadrature filter in each oriantation)
+%       qi - 3D image (response of quadrature filter in each orientation)
 %       angles - vector of angles
 %
 %   OUTPUT:

@@ -8,7 +8,7 @@ N = zeros(size(im,1),size(im,2),size(im,3),length(s));
 orients = ps;
 for i = 1:length(s)
     for j = 1:length(p)
-        fprintf(['Scale: ' num2str(s(i)), '  oriantation: ' num2str(ps(j)) '\n']);
+        fprintf(['Scale: ' num2str(s(i)), '  orientation: ' num2str(ps(j)) '\n']);
         se = Line3D(s(i),p(j,:),1,1,1); %3D line structuring element 
         TH(:,:,:,j) = im - imopen(im,se); 
     end

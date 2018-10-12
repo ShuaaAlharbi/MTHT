@@ -8,7 +8,7 @@ function T = TensorForOrientedQuadratureFilters(qi,angles)
 %       June 1989
 %
 %   INPUT:
-%       qi - 3D image (response of quadrature filter in each oriantation)
+%       qi - 3D image (response of quadrature filter in each orientation)
 %       angles - vector of angles
 %
 %   OUTPUT:

@@ -6,10 +6,10 @@ V = zeros(size(im,1),size(im,2),length(s));
 N = zeros(size(im,1),size(im,2),length(s));
 for i=1:length(s)
     for j=1:length(o)
-        fprintf(['Scale: ' num2str(s(i)), '  oriantation: ' num2str(o(j)) '\n']);
+        fprintf(['Scale: ' num2str(s(i)), '  orientation: ' num2str(o(j)) '\n']);
         se = strel('line',s(i),o(j)); %line structuring element 
         TH(:,:,j) = im - imopen(im,se); %top-hat images
-        %figure; imagesc(TH(:,:,j)); title(['Scale: ' num2str(s(i)), '  oriantation: ' num2str(o(j))]); colormap jet; axis off; axis equal; axis tight;
+        %figure; imagesc(TH(:,:,j)); title(['Scale: ' num2str(s(i)), '  orientation: ' num2str(o(j))]); colormap jet; axis off; axis equal; axis tight;
         %autoArrangeFigures
     end
     %% Tensor
