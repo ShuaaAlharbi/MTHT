@@ -11,7 +11,7 @@
 This repository contains all the codes written and implemented for the paper: 
 'Curvilinear Structure Enhancement by Multiscale Top-Hat Tensor in 2D/3D Images' by Shuaa S. Alharbi, Cigdem Sazak, Chas Nelson and Boguslaw Obara, in IEEE International Conference on Bioinformatics & Biomedicine (BIBM 2018), Madrid, December 3-6, 2018.
 
-If you find this code useful in your research and development, please reference this repository or the paper when using these codes.
+If you find this code useful in your research and development, please reference this repository or the paper.
 *******
 This repositoty is under a GNU General Public License v2.0 (see included "LICENSE" file).
 
