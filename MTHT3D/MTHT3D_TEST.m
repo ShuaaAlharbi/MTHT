@@ -13,7 +13,7 @@ ext = '.tif';
 ext1 = '.png';
 ext2 = '.mat';
 foldername = './images/';
-filename = '0.1tnov';
+filename = 'LuciferSS';
 %% Load image
 im = load3D([foldername filename ext]); 
 %% Normalize & Complement
